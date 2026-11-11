@@ -1,0 +1,26 @@
+# Izslēdz izpildes laikā iegūto DECA repozitoriju un tā resursus.
+/DECA/
+/deca-env/
+
+# Izslēdz modeļus, svarus, arhīvus un rezerves kopijas.
+*.pkl
+*.tar
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.original
+
+# Izslēdz personīgo fotoattēlu un 3D rezultātu mapes.
+/inputs/
+/results/
+/checkpoints/
+frontal*.jpg
+profile*.jpg
+*.obj
+*.mtl
+
+# Izslēdz pagaidu failus.
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
